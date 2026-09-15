@@ -8,6 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![AI Agent Compatible](https://img.shields.io/badge/AI--Agent-Antigravity%20%7C%20Cursor%20%7C%20Claude-purple.svg)](#install-as-an-ai-agent-skill)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](#)
+[![OpenCode](https://img.shields.io/badge/Built%20with-OpenCode-blue.svg)](https://opencode.ai)
 
 *Eliminate notebook spaghetti, path breaks between Google Colab and local machines, and broken inter-notebook data flows.*
 
