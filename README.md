@@ -6,9 +6,8 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-Ready-orange.svg)](https://colab.research.google.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![AI Agent Compatible](https://img.shields.io/badge/AI--Agent-Antigravity%20%7C%20Cursor%20%7C%20Claude-purple.svg)](#install-as-an-ai-agent-skill)
+[![AI Agent Compatible](https://img.shields.io/badge/AI--Agent-Antigravity%20%7C%20Cursor%20%7C%20Claude%20%7C%20OpenCode-purple.svg)](#install-as-an-ai-agent-skill)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](#)
-[![OpenCode](https://img.shields.io/badge/Built%20with-OpenCode-blue.svg)](https://opencode.ai)
 
 *Eliminate notebook spaghetti, path breaks between Google Colab and local machines, and broken inter-notebook data flows.*
 
@@ -166,7 +165,7 @@ Ready-to-use template notebooks are available in the [`templates/`](templates/) 
 
 This framework includes an official agent skill specification in [`skills/notebook-pipeline/SKILL.md`](skills/notebook-pipeline/SKILL.md).
 
-When paired with AI pair-programming assistants like **Google Antigravity**, **Cursor**, or **Claude**, you can instruct your agent to strictly follow these standards.
+When paired with AI pair-programming assistants like **Google Antigravity**, **Cursor**, **Claude**, or **OpenCode**, you can instruct your agent to strictly follow these standards.
 
 ### For Antigravity / Agentic IDEs:
 Copy the skill folder into your workspace:
@@ -175,7 +174,7 @@ mkdir -p .agents/skills/
 cp -r skills/notebook-pipeline .agents/skills/
 ```
 
-### For Claude / ChatGPT / Cursor System Prompts:
+### For Claude / ChatGPT / Cursor / OpenCode System Prompts:
 Simply attach [`notebook-standards.md`](notebook-standards.md) to your prompt:
 > *"Read `notebook-standards.md` and follow the 3-Zone architecture, dual Colab/Local path resolver, and `# Cell XX` numbering convention when generating this notebook."*
 
